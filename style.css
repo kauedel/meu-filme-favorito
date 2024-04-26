@@ -1,0 +1,115 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #ccc;
+  }
+  
+  /* Seção com imagem relacionada ao filme */
+  section.image {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section.image img {
+    width: 50%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Seção com informações básicas sobre o filme */
+  section.info {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  section.info h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  section.info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  section.info li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  section.info li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Seção com breve sinopse do filme */
+  section.sinopse {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  section.sinopse h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  section.sinopse p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Rodapé com créditos */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para links */
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Hover effects */
+  section.image img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+  }
+  
+  section.info li:hover {
+    background-color: #f2f2f2;
+  }
